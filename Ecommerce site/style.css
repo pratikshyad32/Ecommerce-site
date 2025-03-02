@@ -1,0 +1,529 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        background: black;
+        width: 100%;
+    }
+    
+    .first-bar {
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: justify;
+    }
+    
+    .summer-text p {
+        color: #fff;
+        font-size: 8px;
+        margin: 10px;
+    }
+    
+    .summer-text i {
+        color: white;
+        font-size: 10px;
+        text-decoration: underline;
+        margin-left: 10px;
+    }
+    
+    .Englishtext p {
+        font-size: 10px;
+        color: #fff;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .nb-text h3 {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .navbar-item {
+        background: #fff;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        text-align: justify;
+    }
+    
+    .navbar-content {
+        display: flex;
+        margin: 10px;
+    }
+    
+    .navbar-content ul li {
+        list-style: none;
+    }
+    
+    .navbar-content ul li a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #080808;
+    }
+    
+    .sqbar {
+        margin: 10px;
+        padding: 5px;
+        border-radius: 3px white solid;
+    }
+    
+    .sqbar input {
+        margin: 5px;
+        text-align: center;
+        font-size: 10px;
+        width: 150px;
+        padding: 5px;
+    }
+    
+    .searchicon {
+        margin-left: 180px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .navbar-content{
+        display:none;
+    }
+    .navbarcontent{
+        background-color: white;
+        position:absolute;
+        right: 100%;
+
+    }
+    .navbarcontent.active{
+        right: 2%;
+        top: 10%;
+        height:auto;
+        width:20%;
+        border-radius: 8px;
+        background-color: rgb(176, 180, 180);
+        
+    }
+    
+    .navbarcontent ul{
+        list-style: none;
+    }
+    .navbarcontent ul li a{
+        text-decoration: none;
+        margin:30px;    
+    
+
+    }
+    .baricon {
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .main-content {
+        justify-content: space-between;
+        text-align: justify;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .iphone img {
+        height: auto;
+        width: 100%;
+        padding: auto;
+        grid-row: (1);
+        grid-column: 1/5;
+    }
+    
+    .account {
+        padding: 20px;
+        justify-content: space-between;
+        grid-row: (2);
+        grid-column: 1/5;
+    }
+    
+    .account h3 {
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 15px;
+    }
+    
+    .account p {
+        font-size: 12px;
+        text-align: justify;
+        margin-left: 15px;
+    }
+    
+    .form-creation {
+        align-items: center;
+        box-sizing: 30px;
+        padding: 5px;
+        justify-content: space-around;
+    }
+    
+    .form {
+        padding: 10px;
+        border-top: 1px;
+        border-left: 1px;
+        border-right: 1px;
+        height: auto;
+        width: 100%;
+        margin: 5px;
+    }
+    
+    .btn1 {
+        padding: 8px;
+        width: 100%;
+        height: 35px;
+        background-color: red;
+        margin-top: 15px;
+        color: black;
+        border: none;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .btn1 p {
+        font-size: 12px;
+    }
+    
+    .btn2 {
+        padding: 8px;
+        width: 100%;
+        font-size: 10px;
+        margin-bottom: 29px;
+        height: 35px;
+        margin-top: 15px;
+        color: black;
+        border: none;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn2 p {
+        font-size: 12px;
+    }
+    
+    footer {
+        background: #080800;
+        padding: 20px;
+        margin: auto;
+        width: auto;
+        justify-content: space-between;
+        text-align: justify;
+        margin-top: 15px;
+        flex-direction: row;
+    }
+    
+    .ft-class {
+        color: #fff;
+        text-align: justify;
+        justify-items: center;
+        justify-content: space-between;
+        grid-row: (1);
+        grid-column: 2/4;
+        gap: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .ft-class h2 {
+        text-align: justify;
+        font-size: 30px;
+    }
+    
+    .ft-class ul li {
+        list-style: none;
+        font-size: 15px;
+        text-align: justify;
+        margin-left: 60px;
+    }
+    
+    .mail {
+        padding: 5px;
+        background: black;
+        border-radius: 2px;
+        border-color: white;
+        font-size: 10px;
+        width: 130px;
+    }
+    
+    .demo {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .ft-second {
+        color: #fff;
+        text-align: justify;
+        justify-items: center;
+        justify-content: space-between;
+        grid-row: (2);
+        grid-column: 4/6;
+        gap: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .ft-second p {
+        font-size: 30px;
+        text-align: justify;
+        margin-right: 30px;
+    }
+    
+    .ft-second ul li {
+        list-style: none;
+        text-align: justify;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .ft-third p {
+        font-size: 30px;
+        margin-right: 30px;
+    }
+    
+    .ft-third {
+        color: #fff;
+        justify-items: center;
+        justify-content: space-between;
+        grid-row: (3);
+        grid-column: 6/8;
+        gap: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .ft-third ul li {
+        list-style: none;
+        text-align: justify;
+        font-size: 15px;
+        margin-right: 30px;
+    }
+    
+    .ft-third ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .ft-fourth p {
+        font-size: 30px;
+    }
+    
+    .ft-fourth {
+        color: #fff;
+        justify-items: center;
+        justify-content: space-between;
+        grid-row: (4);
+        grid-column: 8/10;
+        gap: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .ft-fourth ul li {
+        list-style: none;
+        text-align: justify;
+        font-size: 15px;
+        margin-right: 30px;
+    }
+    
+    .ft-fourth ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .ft-fifth {
+        color: #fff;
+        justify-items: center;
+        justify-content: space-between;
+        grid-row: (5);
+        grid-column: 10/12;
+        gap: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .ft-fifth p {
+        font-size: 30px;
+        color: #fff;
+        margin-left: 50px;
+    }
+    
+    .ft-fifth a {
+        font-size: 13px;
+        color: #818080;
+        text-decoration: none;
+        margin-bottom: 20px;
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .pic {
+        display: flex;
+    }
+    
+    .QR img {
+        margin: 5px;
+        height: 70px;
+        width: 80px;
+    }
+    
+    .store {
+        padding: 5px;
+        margin: 3px;
+    }
+    
+    .socialicon ul {
+        display: flex;
+    }
+    
+    .socialicon ul li a i {
+        font-size: 20px;
+    }
+    
+    .socialicon ul li {
+        list-style: none;
+    }
+    
+    .socialicon ul li a {
+        padding-right: 90 px;
+    }
+    
+    /*tablets view*/
+    
+    @media screen and (min-width:768px) {}
+    /* desktop view */
+    
+    @media screen and (min-width:1024px) {
+        .summer-text p {
+            font-size: 20px;
+        }
+        .summer-text i {
+            font-size: 15px;
+        }
+        .Englishtext p {
+            font-size: 20px;
+        }
+        .nb-text {
+            font-size: 20px;
+            text-align: center;
+        }
+        .sqbar {
+            font-size: 20px;
+        }
+        .navbar-content{
+            font-size:large;
+            display: contents;
+        }
+        .navbar-content ul{
+            display:flex;
+            justify-content: space-between;
+        }
+        .navbarcontent{
+            display: none;
+        }
+        .navbar-content ul li{
+            margin-left:30px;
+            font-size: 30px;
+        }
+        .navbar-content ul li a{
+            font-size:20px;
+        }
+        .navbar-content ul li a:hover {
+            color: rgb(53, 53, 1);
+            font-size: 35px;
+          }
+        .baricon {
+            font-size: 20px;
+            display:none;
+        }
+        .main-content {
+            flex-direction: row;
+        }
+        .iphone-img {
+            grid-column: 1/5;
+            width: 100%;
+        }
+        .account {
+            grid-column: 5/12;
+            padding: 30px;
+            margin-top: 50px;
+        }
+        .account h3 {
+            font-size: 40px;
+        }
+        .account p {
+            font-size: 20px;
+        }
+        .form {
+            width: 100%;
+        }
+        .btn1 {
+            width: 100%;
+        }
+        .btn2 {
+            width: 100%;
+        }
+        footer {
+            display: flex;
+            flex-direction: row;
+        }
+        .ft-class {
+            grid-column: 2/4;
+            gap: 1px;
+            text-align: justify;
+        }
+        .ft-class h2 {
+            font-size: 30px;
+            margin-right: 30px;
+        }
+        .ft-class ul li {
+            font-size: 20px;
+            padding: 5px;
+        }
+        .ft-second {
+            grid-column: 4/6;
+            gap: 1px;
+        }
+        .ft-second p {
+            font-size: 30px;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+        .ft-second ul li {
+            font-size: 20px;
+        }
+        .ft-third {
+            grid-column: 6/8;
+            gap: 1px;
+        }
+        .ft-third p {
+            font-size: 30px;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+        .ft-third ul li {
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        .ft-fourth {
+            grid-column: 8/10;
+            gap: 1px;
+        }
+        .ft-fourth p {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+        .ft-fourth ul li {
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        .ft-fifth {
+            grid-column: 10/12;
+            gap: 1px;
+            text-align: justify;
+        }
+        .ft-fifth p {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+        .ft-fifth a {
+            font-size: 20px;
+        }
+    }
